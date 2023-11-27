@@ -1,0 +1,3 @@
+C:/Users/trsky/Documents/GitHub/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles/BadAppleConsoleCPP.dir
+C:/Users/trsky/Documents/GitHub/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/trsky/Documents/GitHub/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
