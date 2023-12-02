@@ -9,7 +9,7 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 set(CMAKE_CXX_STANDARD 11)
 #set(ENV{OPENCV_DIR})
 
-#set(OPENCV_DIR "/Users/raymondtsai/Desktop/OpenCV/opencv")
+set(OpenCV_DIR "C:\\Users\\trsky\\Downloads\\opencv\\build\\x64\\vc16\\lib")
 
 message(STATUS "OpenCV_DIR set")
 
