@@ -27,6 +27,8 @@ message(STATUS "    version: ${OpenCV_VERSION}")
 message(STATUS "    libraries: ${OpenCV_LIBS}")
 message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
 
-add_executable(BadAppleConsoleCPP main.cpp)
+add_executable(BadAppleConsoleCPP main.cpp
+        lib/src/AudioPlayer.cpp
+        lib/include/AudioPlayer.h)
 
 target_link_libraries(BadAppleConsoleCPP ${OpenCV_LIBS})

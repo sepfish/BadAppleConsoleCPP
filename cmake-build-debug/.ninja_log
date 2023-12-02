@@ -1,7 +1,10 @@
 # ninja log v5
-0	1277	7232559785371096	CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.obj	ae21ef899b5d2781
-1281	1581	7232559788488426	BadAppleConsoleCPP.exe	7b54f6b3253f28cd
-3	1130	7232584638741539	CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.obj	ae21ef899b5d2781
-1131	1330	7232584640796498	BadAppleConsoleCPP.exe	7b54f6b3253f28cd
 3	4661	7232585887425938	CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.obj	ae21ef899b5d2781
 4663	4936	7232585890276761	BadAppleConsoleCPP.exe	7b54f6b3253f28cd
+4	337	7232599272112657	build.ninja	cf4bf215c09020b0
+26	3771	7232602801191150	CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.obj	c8bc117a1cbd38c4
+32	3878	7232603296905913	CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.obj	c8bc117a1cbd38c4
+3	3606	7232604856283673	CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.obj	ae21ef899b5d2781
+2	285	7232605217225008	CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.obj	ae21ef899b5d2781
+26	3541	7232605249719393	CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.obj	c8bc117a1cbd38c4
+3551	3803	7232605252472818	BadAppleConsoleCPP.exe	4db7d049a5d927c9
