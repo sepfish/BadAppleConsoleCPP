@@ -1,4 +1,5 @@
 #include <iostream>
+#include <opencv2/opencv.hpp>
 
 #define MINIAUDIO_IMPLEMENTATION
 #include "lib/audio/miniaudio.h"
@@ -59,4 +60,5 @@ int main(int argc, char** argv)
     ma_decoder_uninit(&decoder);
 
     return 0;
+
 }
