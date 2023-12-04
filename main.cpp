@@ -1,8 +1,9 @@
 #include <iostream>
-#include <opencv2/opencv.hpp>
 
 #define MINIAUDIO_IMPLEMENTATION
 #include "lib/audio/miniaudio.h"
+
+#include "lib/video/VideoProcessor.h"
 
 void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
 {
@@ -18,47 +19,15 @@ void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uin
 
 int main(int argc, char** argv)
 {
-    ma_result result;
-    ma_decoder decoder;
-    ma_device_config deviceConfig;
-    ma_device device;
+    const char* videoFilePath = argv[1];
 
-    if (argc < 2) {
-        printf("No input file.\n");
-        return -1;
-    }
+    std::cout << "the main is running" << std::endl;
 
-    result = ma_decoder_init_file(argv[1], NULL, &decoder);
-    if (result != MA_SUCCESS) {
-        return -2;
-    }
+    VideoProcessor processor(videoFilePath);
 
-    deviceConfig = ma_device_config_init(ma_device_type_playback);
-    deviceConfig.playback.format   = decoder.outputFormat;
-    deviceConfig.playback.channels = decoder.outputChannels;
-    deviceConfig.sampleRate        = decoder.outputSampleRate;
-    deviceConfig.dataCallback      = data_callback;
-    deviceConfig.pUserData         = &decoder;
+    std::cout << "video processor was able to get a video file path" << std::endl;
 
-    if (ma_device_init(NULL, &deviceConfig, &device) != MA_SUCCESS) {
-        printf("Failed to open playback device.\n");
-        ma_decoder_uninit(&decoder);
-        return -3;
-    }
+    processor.writeFramesToFolder();
 
-    if (ma_device_start(&device) != MA_SUCCESS) {
-        printf("Failed to start playback device.\n");
-        ma_device_uninit(&device);
-        ma_decoder_uninit(&decoder);
-        return -4;
-    }
-
-    printf("Press Enter to quit...");
-    getchar();
-
-    ma_device_uninit(&device);
-    ma_decoder_uninit(&decoder);
-
-    return 0;
-
+    std::cout << "video processor was able to write to file paths" << std::endl;
 }

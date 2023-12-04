@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "BadAppleConsoleCPP"
   "BadAppleConsoleCPP.pdb"
+  "CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o"
+  "CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o.d"
   "CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o"
   "CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o.d"
 )

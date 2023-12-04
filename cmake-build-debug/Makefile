@@ -129,6 +129,30 @@ BadAppleConsoleCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/build
 .PHONY : BadAppleConsoleCPP/fast
 
+lib/video/VideoProcessor.o: lib/video/VideoProcessor.cpp.o
+.PHONY : lib/video/VideoProcessor.o
+
+# target to build an object file
+lib/video/VideoProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o
+.PHONY : lib/video/VideoProcessor.cpp.o
+
+lib/video/VideoProcessor.i: lib/video/VideoProcessor.cpp.i
+.PHONY : lib/video/VideoProcessor.i
+
+# target to preprocess a source file
+lib/video/VideoProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.i
+.PHONY : lib/video/VideoProcessor.cpp.i
+
+lib/video/VideoProcessor.s: lib/video/VideoProcessor.cpp.s
+.PHONY : lib/video/VideoProcessor.s
+
+# target to generate assembly for a file
+lib/video/VideoProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.s
+.PHONY : lib/video/VideoProcessor.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BadAppleConsoleCPP"
+	@echo "... lib/video/VideoProcessor.o"
+	@echo "... lib/video/VideoProcessor.i"
+	@echo "... lib/video/VideoProcessor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

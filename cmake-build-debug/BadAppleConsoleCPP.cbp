@@ -5,7 +5,7 @@
 		<Option title="BadAppleConsoleCPP"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Desktop\;CMake Files\..\..\..\..\Desktop\OpenCV\;CMake Files\..\..\..\..\Desktop\OpenCV\build\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug"/>
@@ -24,11 +24,29 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/homebrew/Cellar/opencv/4.8.1_4/include/opencv4"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/opt/homebrew/lib"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/build"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/photo/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/features2d/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgcodecs/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/videoio/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/calib3d/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/highgui/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ts/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/gapi/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -46,11 +64,29 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/opt/homebrew/Cellar/opencv/4.8.1_4/include/opencv4"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/opt/homebrew/lib"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/build"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/photo/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/features2d/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgcodecs/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/videoio/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/calib3d/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/highgui/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ts/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include"/>
+					<Add directory="/Users/raymondtsai/Desktop/OpenCV/opencv/modules/gapi/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
@@ -82,23 +118,26 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp">
+			<Option target="BadAppleConsoleCPP"/>
+		</Unit>
+		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.h">
+			<Option target="BadAppleConsoleCPP"/>
+		</Unit>
 		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp">
 			<Option target="BadAppleConsoleCPP"/>
 		</Unit>
 		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../Desktop/OpenCV/build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Desktop\OpenCV\build\"/>
 		</Unit>
-		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../Desktop/OpenCV/build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Desktop\OpenCV\build\"/>
 		</Unit>
-		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
-		</Unit>
-		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../../../opt/homebrew/lib/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\opt\homebrew\lib\cmake\opencv4\"/>
+		<Unit filename="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/../../../../Desktop/OpenCV/build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Desktop\OpenCV\build\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -73,82 +73,58 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: CMakeFiles/BadAppleConsoleCPP.dir/
 CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp
 CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: CMakeFiles/BadAppleConsoleCPP.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o -MF CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o.d -o CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o -c /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o -MF CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o.d -o CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o -c /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp
 
 CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp > CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp > CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.i
 
 CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp -o CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp -o CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.s
+
+CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: CMakeFiles/BadAppleConsoleCPP.dir/flags.make
+CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp
+CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: CMakeFiles/BadAppleConsoleCPP.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o -MF CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o.d -o CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o -c /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp
+
+CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp > CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.i
+
+CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp -o CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.s
 
 # Object files for target BadAppleConsoleCPP
 BadAppleConsoleCPP_OBJECTS = \
-"CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o"
+"CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o" \
+"CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o"
 
 # External object files for target BadAppleConsoleCPP
 BadAppleConsoleCPP_EXTERNAL_OBJECTS =
 
 BadAppleConsoleCPP: CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o
+BadAppleConsoleCPP: CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o
 BadAppleConsoleCPP: CMakeFiles/BadAppleConsoleCPP.dir/build.make
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_gapi.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_stitching.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_alphamat.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_aruco.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_bgsegm.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_bioinspired.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_ccalib.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_dnn_objdetect.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_dnn_superres.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_dpm.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_face.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_freetype.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_fuzzy.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_hfs.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_img_hash.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_intensity_transform.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_line_descriptor.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_mcc.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_quality.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_rapid.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_reg.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_rgbd.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_saliency.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_sfm.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_stereo.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_structured_light.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_superres.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_surface_matching.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_tracking.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_videostab.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_viz.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_wechat_qrcode.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_xfeatures2d.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_xobjdetect.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_xphoto.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_shape.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_highgui.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_datasets.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_plot.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_text.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_ml.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_phase_unwrapping.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_optflow.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_ximgproc.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_video.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_videoio.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_imgcodecs.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_objdetect.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_calib3d.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_dnn.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_features2d.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_flann.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_photo.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_imgproc.4.8.1.dylib
-BadAppleConsoleCPP: /opt/homebrew/lib/libopencv_core.4.8.1.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_gapi.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_highgui.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_ml.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_objdetect.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_photo.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_stitching.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_video.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_videoio.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_imgcodecs.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_dnn.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_calib3d.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_features2d.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_flann.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_imgproc.4.8.0.dylib
+BadAppleConsoleCPP: /Users/raymondtsai/Desktop/OpenCV/build/lib/libopencv_core.4.8.0.dylib
 BadAppleConsoleCPP: CMakeFiles/BadAppleConsoleCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BadAppleConsoleCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BadAppleConsoleCPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BadAppleConsoleCPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

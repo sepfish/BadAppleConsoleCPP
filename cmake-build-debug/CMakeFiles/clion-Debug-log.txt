@@ -1,10 +1,15 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP -B /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES=arm64 -DWITH_QT=OFF -DWITH_OPENGL=OFF -DFORCE_VTK=OFF -DWITH_TBB=OFF -DWITH_GDAL=OFF -DWITH_XINE=OFF -DBUILD_EXAMPLES=OFF -DBUILD_ZLIB=OFF -DBUILD_TESTS=OFF -DCMAKE_LIBRARY_PATH=/opt/homebrew/lib;/Users/raymondtsai/Desktop/OpenCV/build/lib -G "CodeBlocks - Unix Makefiles" -S /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP -B /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug
+arm64
+x86_64Supported=1
+arm64Supported=1
 -- OpenCV_DIR set
+/opt/homebrew
+CMAKE_MODULE_PATH: /opt/homebrew
 -- OpenCV library status:
---     config: /opt/homebrew/lib/cmake/opencv4
---     version: 4.8.1
---     libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio;opencv_alphamat;opencv_aruco;opencv_bgsegm;opencv_bioinspired;opencv_ccalib;opencv_datasets;opencv_dnn_objdetect;opencv_dnn_superres;opencv_dpm;opencv_face;opencv_freetype;opencv_fuzzy;opencv_hfs;opencv_img_hash;opencv_intensity_transform;opencv_line_descriptor;opencv_mcc;opencv_optflow;opencv_phase_unwrapping;opencv_plot;opencv_quality;opencv_rapid;opencv_reg;opencv_rgbd;opencv_saliency;opencv_sfm;opencv_shape;opencv_stereo;opencv_structured_light;opencv_superres;opencv_surface_matching;opencv_text;opencv_tracking;opencv_videostab;opencv_viz;opencv_wechat_qrcode;opencv_xfeatures2d;opencv_ximgproc;opencv_xobjdetect;opencv_xphoto
---     include path: /opt/homebrew/Cellar/opencv/4.8.1_4/include/opencv4
--- Configuring done (0.1s)
+--     config: /Users/raymondtsai/Desktop/OpenCV/build
+--     version: 4.8.0
+--     libraries: opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+--     include path: /Users/raymondtsai/Desktop/OpenCV/build;/Users/raymondtsai/Desktop/OpenCV/opencv/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/photo/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/features2d/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgcodecs/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/videoio/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/calib3d/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/highgui/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/ts/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include;/Users/raymondtsai/Desktop/OpenCV/opencv/modules/gapi/include
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/cmake-build-debug
