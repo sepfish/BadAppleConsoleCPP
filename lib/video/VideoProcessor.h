@@ -16,24 +16,27 @@ public:
     std::vector<std::string> framesAsAscii;
 
     //constructor
-    explicit VideoProcessor(const char* videoFilePath);
+    explicit VideoProcessor(const char* videoFilePath, const char* framesPath);
 
     //takes each frame and saves as png file in the framesDirectory
     void writeFramesToFolder();
 
-    void processFrames();
+    void processFrames(int downsampleRate);
 
 
 
 private:
     const char* videoFilePath;
+    const char* framesPath;
+    const char* asciiCharacterList;
+    std::vector<double> asciiBrightnessList;
 
     //processes each frame and stores it as a String, puts it in the vector
     //  1. analyzes each pixel by brightness
     //  2. corresponds each brightness value to the nearest ASCII character
     //  3. generates a multi-line String for the frame
     //  4. stores the String in a vector.
-    void processFrame();
+    void processFrame(const char* dir, int downsampleRate);
 
 };
 

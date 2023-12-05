@@ -23,11 +23,15 @@ int main(int argc, char** argv)
 
     std::cout << "the main is running" << std::endl;
 
-    VideoProcessor processor(videoFilePath);
+    VideoProcessor processor(videoFilePath, "/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/FRAMES");
 
     std::cout << "video processor was able to get a video file path" << std::endl;
 
     processor.writeFramesToFolder();
 
     std::cout << "video processor was able to write to file paths" << std::endl;
+
+    processor.processFrames(10);
+
+    std::cout << "processed all frames" << std::endl;
 }

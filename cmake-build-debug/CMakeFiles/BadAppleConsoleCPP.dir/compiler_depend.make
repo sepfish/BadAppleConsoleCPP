@@ -915,7 +915,24 @@ CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: /Users/raymond
   /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp \
   /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video.hpp \
   /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/tracking.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/background_segm.hpp
+  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/background_segm.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h
 
 CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
@@ -2066,8 +2083,6 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/dispatch/object.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/time_value.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/clock_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/dispatch/base.h:
@@ -2081,8 +2096,6 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_o_sync.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/base.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/machine/vm_types.h:
 
@@ -2180,6 +2193,32 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/time.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/space_info.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/operations.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/perms.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/time_value.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFSocket.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/dlfcn.h:
 
 /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/background_segm.hpp:
@@ -2215,6 +2254,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AUComponent.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path.h:
 
 /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp:
 
@@ -2754,6 +2795,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/countr.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/bit_width.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/bit_log2.h:
@@ -2803,6 +2846,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFCharacterSet.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/replace.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/mismatch.h:
 
@@ -3320,6 +3365,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/mach/arm/boolean.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/file_status.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__fwd/array.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/mergeable.h:
@@ -3498,6 +3545,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/minmax.h:
@@ -3527,6 +3576,8 @@ CMakeFiles/BadAppleConsoleCPP.dir/main.cpp.o: /Users/raymondtsai/Documents/CS352
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/errno.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
 
