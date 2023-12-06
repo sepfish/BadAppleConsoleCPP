@@ -6,15 +6,15 @@
 #include "lib/include/VideoProcessor.h"
 
 int main(int argc, char** argv) {
-    AudioPlayer a(argv[1]);
+    //AudioPlayer a(argv[1]);
 
-    auto audio = [](AudioPlayer a) {
-        a.playSong();
-    };
+    //auto audio = [](AudioPlayer a) {
+        //a.playSong();
+    //};
 
-    std::thread audioThread(audio, a);
+    //std::thread audioThread(audio, a);
 
-    /*
+
     const char* videoFilePath = argv[2];
 
     std::cout << "the main is running" << std::endl;
@@ -37,9 +37,10 @@ int main(int argc, char** argv) {
         std::this_thread::sleep_for(std::chrono::milliseconds(8));
         system("cls");
     }
-    */
-    
-    a.stopPlaying = true;
+
+
+    //std::this_thread::sleep_for(std::chrono::milliseconds(10000));
+    //a.stopPlaying = true;
 
     return 0;
 }
