@@ -3,11 +3,13 @@
 //
 
 #define MINIAUDIO_IMPLEMENTATION
+#include <iostream>
 #include "../audio/miniaudio.h"
 #include "../include/AudioPlayer.h"
 
 AudioPlayer::AudioPlayer(char *fileName) {
     audioFile = fileName;
+    stopPlaying = false;
 }
 
 //From the miniaudio github starter code.
@@ -23,9 +25,9 @@ void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uin
 int AudioPlayer::playSong() {
     //Also from the miniaudio github starter code.
     ma_result result;
-    ma_decoder decoder;
     ma_device_config deviceConfig;
     ma_device device;
+    ma_decoder decoder;
 
     result = ma_decoder_init_file(audioFile, NULL, &decoder);
     if (result != MA_SUCCESS) {
@@ -52,13 +54,19 @@ int AudioPlayer::playSong() {
         return -4;
     }
 
-    printf("Press Enter to quit...");
-    getchar();
+    //printf("Press Enter to quit...");
+    //getchar();
 
-    ma_device_uninit(&device);
-    ma_decoder_uninit(&decoder);
+    if (stopPlaying) {
+        ma_device_uninit(&device);
+        ma_decoder_uninit(&decoder);
+    }
 
     return 0;
+}
+
+AudioPlayer::~AudioPlayer() {
+
 }
 
 

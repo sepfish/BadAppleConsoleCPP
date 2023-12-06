@@ -10,6 +10,8 @@ class AudioPlayer {
 public:
     AudioPlayer(char* fileName);
     int playSong();
+    ~AudioPlayer();
+    bool stopPlaying;
 private:
     char* audioFile;
 };
