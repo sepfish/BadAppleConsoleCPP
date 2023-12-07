@@ -110,7 +110,7 @@ void VideoProcessor::processFrame(const char* dir, int downsampleRate) {
             //std::cout << "Ascii character list length: " << strlen(this->asciiCharacterList) << std::endl;
 
             //std::cout << this->asciiCharacterList[indexOfMin] << std::endl;
-            //stringToBuild += " ";
+            stringToBuild += " ";
             stringToBuild += this->asciiCharacterList[indexOfMin];
             //stringToBuild += " ";
             pixelBrightnessMap[row][col] = brightness;
