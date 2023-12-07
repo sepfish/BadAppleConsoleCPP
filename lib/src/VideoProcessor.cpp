@@ -2,7 +2,7 @@
 // Created by Raymond Tsai on 12/2/23.
 //
 
-#include "VideoProcessor.h"
+#include "../include/VideoProcessor.h"
 #include <filesystem>
 
 VideoProcessor::VideoProcessor(const char *videoFilePath, const char* framesPath) {
@@ -68,8 +68,9 @@ void VideoProcessor::processFrames(int downsampleRate) {
     });
 
     for (const auto& entry : entries) {
-        processFrame(entry.path().c_str(), downsampleRate);
+        processFrame(entry.path().string().data(), downsampleRate);
     }
+
 }
 
 void VideoProcessor::processFrame(const char* dir, int downsampleRate) {
@@ -117,6 +118,9 @@ void VideoProcessor::processFrame(const char* dir, int downsampleRate) {
         }
         stringToBuild += "\n";
     }
+
+    this->frameWidth = pixelBrightnessMap[0].size() / downsampleRate;
+    this->frameHeight = pixelBrightnessMap.size() / downsampleRate;
 
     std::cout << stringToBuild << std::endl;
 

@@ -129,29 +129,53 @@ BadAppleConsoleCPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/build
 .PHONY : BadAppleConsoleCPP/fast
 
-lib/video/VideoProcessor.o: lib/video/VideoProcessor.cpp.o
-.PHONY : lib/video/VideoProcessor.o
+lib/src/AudioPlayer.o: lib/src/AudioPlayer.cpp.o
+.PHONY : lib/src/AudioPlayer.o
 
 # target to build an object file
-lib/video/VideoProcessor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o
-.PHONY : lib/video/VideoProcessor.cpp.o
+lib/src/AudioPlayer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.o
+.PHONY : lib/src/AudioPlayer.cpp.o
 
-lib/video/VideoProcessor.i: lib/video/VideoProcessor.cpp.i
-.PHONY : lib/video/VideoProcessor.i
+lib/src/AudioPlayer.i: lib/src/AudioPlayer.cpp.i
+.PHONY : lib/src/AudioPlayer.i
 
 # target to preprocess a source file
-lib/video/VideoProcessor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.i
-.PHONY : lib/video/VideoProcessor.cpp.i
+lib/src/AudioPlayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.i
+.PHONY : lib/src/AudioPlayer.cpp.i
 
-lib/video/VideoProcessor.s: lib/video/VideoProcessor.cpp.s
-.PHONY : lib/video/VideoProcessor.s
+lib/src/AudioPlayer.s: lib/src/AudioPlayer.cpp.s
+.PHONY : lib/src/AudioPlayer.s
 
 # target to generate assembly for a file
-lib/video/VideoProcessor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.s
-.PHONY : lib/video/VideoProcessor.cpp.s
+lib/src/AudioPlayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/AudioPlayer.cpp.s
+.PHONY : lib/src/AudioPlayer.cpp.s
+
+lib/src/VideoProcessor.o: lib/src/VideoProcessor.cpp.o
+.PHONY : lib/src/VideoProcessor.o
+
+# target to build an object file
+lib/src/VideoProcessor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/VideoProcessor.cpp.o
+.PHONY : lib/src/VideoProcessor.cpp.o
+
+lib/src/VideoProcessor.i: lib/src/VideoProcessor.cpp.i
+.PHONY : lib/src/VideoProcessor.i
+
+# target to preprocess a source file
+lib/src/VideoProcessor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/VideoProcessor.cpp.i
+.PHONY : lib/src/VideoProcessor.cpp.i
+
+lib/src/VideoProcessor.s: lib/src/VideoProcessor.cpp.s
+.PHONY : lib/src/VideoProcessor.s
+
+# target to generate assembly for a file
+lib/src/VideoProcessor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BadAppleConsoleCPP.dir/build.make CMakeFiles/BadAppleConsoleCPP.dir/lib/src/VideoProcessor.cpp.s
+.PHONY : lib/src/VideoProcessor.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BadAppleConsoleCPP"
-	@echo "... lib/video/VideoProcessor.o"
-	@echo "... lib/video/VideoProcessor.i"
-	@echo "... lib/video/VideoProcessor.s"
+	@echo "... lib/src/AudioPlayer.o"
+	@echo "... lib/src/AudioPlayer.i"
+	@echo "... lib/src/AudioPlayer.s"
+	@echo "... lib/src/VideoProcessor.o"
+	@echo "... lib/src/VideoProcessor.i"
+	@echo "... lib/src/VideoProcessor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

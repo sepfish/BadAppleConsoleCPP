@@ -14,6 +14,8 @@ class VideoProcessor {
 public:
     //stores each frame as a multi-line string of ascii art
     std::vector<std::string> framesAsAscii;
+    int frameWidth;
+    int frameHeight;
 
     //constructor
     explicit VideoProcessor(const char* videoFilePath, const char* framesPath);

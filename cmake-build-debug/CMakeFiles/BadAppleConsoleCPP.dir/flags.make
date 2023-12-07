@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/opt/homebrew/lib -isystem /Users/raymondtsai/Desktop/OpenCV/build -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/photo/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/features2d/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgcodecs/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/videoio/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/calib3d/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/highgui/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/ts/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include -isystem /Users/raymondtsai/Desktop/OpenCV/opencv/modules/gapi/include
+CXX_INCLUDES = -isystem /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4
 
 CXX_FLAGSarm64 = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
 

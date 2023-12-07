@@ -1,6 +1,6 @@
-CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: \
-  /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.cpp \
-  /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/video/VideoProcessor.h \
+CMakeFiles/BadAppleConsoleCPP.dir/lib/src/VideoProcessor.cpp.o: \
+  /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/src/VideoProcessor.cpp \
+  /Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/src/../include/VideoProcessor.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -792,128 +792,128 @@ CMakeFiles/BadAppleConsoleCPP.dir/lib/video/VideoProcessor.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/include/opencv2/opencv.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/build/opencv2/opencv_modules.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cvdef.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/version.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/hal/interface.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/opencv_modules.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvdef.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/version.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/hal/interface.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/arm_neon.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/arm_bf16.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/base.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cvstd.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/neon_utils.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/vsx_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/base.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/neon_utils.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/vsx_utils.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/check.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/traits.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/matx.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/saturate.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/fast_math.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/types.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/check.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/traits.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/matx.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/saturate.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/fast_math.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/types.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/float.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/mat.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/bufferpool.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/mat.inl.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/persistence.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/operations.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/bufferpool.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/mat.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/persistence.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/operations.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cvstd.inl.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/complex \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/utility.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/optim.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/ovx.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/calib3d/include/opencv2/calib3d.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/features2d/include/opencv2/features2d.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/miniflann.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/defines.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/config.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/affine.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/dnn.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/async.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/../dnn/version.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/dict.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/utility.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/optim.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/ovx.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/calib3d.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/features2d.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/miniflann.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/defines.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/config.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/affine.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/async.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/../dnn/version.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dict.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__tree \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/layer.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/dnn.inl.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/utils/inference_engine.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/dnn/include/opencv2/dnn/utils/../dnn.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/flann_base.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/general.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/matrix.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/params.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/any.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/saving.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/nn_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/result_set.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/layer.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/dnn/utils/../dnn.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/flann_base.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/general.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/matrix.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/params.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/any.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/saving.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/nn_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/result_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/set \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/all_indices.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/kdtree_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/dist.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/heap.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/allocator.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/random.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/kmeans_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/logger.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/composite_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/linear_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/lsh_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/lsh_table.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/all_indices.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dynamic_bitset.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/dist.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/heap.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/allocator.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/random.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kdtree_single_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/kmeans_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/logger.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/composite_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/linear_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/lsh_table.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iomanip \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/autotuned_index.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/ground_truth.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/index_testing.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/timer.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/flann/include/opencv2/flann/sampling.h \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/highgui/include/opencv2/highgui.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgcodecs/include/opencv2/imgcodecs.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/videoio/include/opencv2/videoio.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include/opencv2/imgproc.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/imgproc/include/opencv2/./imgproc/segmentation.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include/opencv2/ml.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/ml/include/opencv2/ml/ml.inl.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/aruco_detector.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/aruco_dictionary.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/aruco_board.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/graphical_code_detector.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/charuco_detector.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/objdetect/include/opencv2/objdetect/barcode.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/photo/include/opencv2/photo.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cuda.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cuda_types.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/core/include/opencv2/core/cuda.inl.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/autotuned_index.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/ground_truth.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/index_testing.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/timer.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/flann/sampling.h \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/highgui.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgcodecs.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/videoio.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/imgproc.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/./imgproc/segmentation.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/ml/ml.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/aruco_board.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/face.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/objdetect/barcode.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/photo.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/warpers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda_types.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/core/cuda.inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/tracking.hpp \
-  /Users/raymondtsai/Desktop/OpenCV/opencv/modules/video/include/opencv2/video/background_segm.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/camera.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/tracking.hpp \
+  /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4/opencv2/video/background_segm.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
