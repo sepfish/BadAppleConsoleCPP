@@ -2,20 +2,27 @@
 
 #include <iostream>
 #include <thread>
+#include <mutex>
+#include <condition_variable>
 #include "lib/include/AudioPlayer.h"
 #include "lib/include/VideoProcessor.h"
 
-int main(int argc, char** argv) {
-    //AudioPlayer a(argv[1]);
+std::mutex mutex;
+std::condition_variable condv;
 
-    //auto audio = [](AudioPlayer a) {
-        //a.playSong();
-    //};
+bool flag = false;
 
-    //std::thread audioThread(audio, a);
+int main(int argc, char **argv) {
+    AudioPlayer a(argv[1]);
 
+    auto audio = [](AudioPlayer a) {
+        std::unique_lock<std::mutex> lock(mutex);
+        a.playSong();
+        condv.wait(lock, []{return flag;});
+        a.stopPlaying = true;
+    };
 
-    const char* videoFilePath = argv[2];
+    const char *videoFilePath = argv[2];
 
     std::cout << "the main is running" << std::endl;
 
@@ -31,16 +38,33 @@ int main(int argc, char** argv) {
 
     std::cout << "processed all frames" << std::endl;
 
+    auto video = [](VideoProcessor processor) {
+        for (std::string &s: processor.framesAsAscii) {
+            std::cout << s;
+            //theoretically time between frames should be 16.6 ms
+            //std::this_thread::sleep_for(std::chrono::milliseconds(2));
+            system("cls");
+        }
+        flag = true;
+        condv.notify_one();
+    };
 
-    for (std::string &s: processor.framesAsAscii) {
-        std::cout << s;
-        std::this_thread::sleep_for(std::chrono::milliseconds(8));
-        system("cls");
+    std::thread audioThread(audio, a);
+    std::thread videoThread(video, processor);
+
+    videoThread.join();
+
+    {
+        std::unique_lock<std::mutex> lock(mutex);
+        flag = true;
+        condv.notify_one();
     }
+
+    audioThread.join();
 
 
     //std::this_thread::sleep_for(std::chrono::milliseconds(10000));
-    //a.stopPlaying = true;
+
 
     return 0;
 }
