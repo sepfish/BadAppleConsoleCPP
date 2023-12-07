@@ -1,64 +1,69 @@
+
+
 #include <iostream>
-#include <opencv2/opencv.hpp>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+#include "lib/include/AudioPlayer.h"
+#include "lib/include/VideoProcessor.h"
 
-#define MINIAUDIO_IMPLEMENTATION
-#include "lib/audio/miniaudio.h"
+std::mutex mutex;
+std::condition_variable condv;
 
-void data_callback(ma_device* pDevice, void* pOutput, const void* pInput, ma_uint32 frameCount)
-{
-    ma_decoder* pDecoder = (ma_decoder*)pDevice->pUserData;
-    if (pDecoder == NULL) {
-        return;
+bool flag = false;
+
+int main(int argc, char **argv) {
+    AudioPlayer a(argv[1]);
+
+    //creates audio thread that plays the song and waits for the video thread to stop before stopping
+    auto audio = [](AudioPlayer a) {
+        std::unique_lock<std::mutex> lock(mutex);
+        a.playSong();
+        condv.wait(lock, []{return flag;});
+        a.stopPlaying = true;
+    };
+
+    const char *videoFilePath = argv[2];
+    VideoProcessor processor(videoFilePath, argv[3]);
+    std::cout << "video processor was able to get a video file path" << std::endl;
+
+    //lines should be uncommented when running for the first time
+    //processor.writeFramesToFolder();
+    //std::cout << "video processor was able to write to file paths" << std::endl;
+
+    processor.processFrames(10);
+    std::cout << "processed all frames" << std::endl;
+
+    //creates "video" thread that prints each frame included in the VideoProcessor
+    auto video = [](VideoProcessor processor) {
+        for (std::string &s: processor.framesAsAscii) {
+            std::cout << s;
+            //theoretically time between frames should be 16.6 ms
+            //std::this_thread::sleep_for(std::chrono::milliseconds(2));
+            system("cls");
+        }
+        flag = true;
+        condv.notify_one();
+    };
+
+    //system("start cmd /k C:/Users/trsky/Documents/GitHub/BadAppleConsoleCPP/cmake-build-debug/BadAppleConsoleCPP.exe");
+
+    //start both threads
+    std::thread audioThread(audio, a);
+    std::thread videoThread(video, processor);
+
+    //wait for the video thread to finish
+    videoThread.join();
+
+    //tell the audio thread that it needs to end
+    {
+        std::unique_lock<std::mutex> lock(mutex);
+        flag = true;
+        condv.notify_one();
     }
 
-    ma_decoder_read_pcm_frames(pDecoder, pOutput, frameCount, NULL);
-
-    (void)pInput;
-}
-
-int main(int argc, char** argv)
-{
-    ma_result result;
-    ma_decoder decoder;
-    ma_device_config deviceConfig;
-    ma_device device;
-
-    if (argc < 2) {
-        printf("No input file.\n");
-        return -1;
-    }
-
-    result = ma_decoder_init_file(argv[1], NULL, &decoder);
-    if (result != MA_SUCCESS) {
-        return -2;
-    }
-
-    deviceConfig = ma_device_config_init(ma_device_type_playback);
-    deviceConfig.playback.format   = decoder.outputFormat;
-    deviceConfig.playback.channels = decoder.outputChannels;
-    deviceConfig.sampleRate        = decoder.outputSampleRate;
-    deviceConfig.dataCallback      = data_callback;
-    deviceConfig.pUserData         = &decoder;
-
-    if (ma_device_init(NULL, &deviceConfig, &device) != MA_SUCCESS) {
-        printf("Failed to open playback device.\n");
-        ma_decoder_uninit(&decoder);
-        return -3;
-    }
-
-    if (ma_device_start(&device) != MA_SUCCESS) {
-        printf("Failed to start playback device.\n");
-        ma_device_uninit(&device);
-        ma_decoder_uninit(&decoder);
-        return -4;
-    }
-
-    printf("Press Enter to quit...");
-    getchar();
-
-    ma_device_uninit(&device);
-    ma_decoder_uninit(&decoder);
+    //wait for the audio thread to finish
+    audioThread.join();
 
     return 0;
-
 }
