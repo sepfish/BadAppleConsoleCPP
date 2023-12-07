@@ -16,7 +16,7 @@ into the CMake settings (CLion -> Settings -> Build, Execution, Deployment -> CM
 
 -DCMAKE_OSX_ARCHITECTURES=arm64 -DWITH_QT=OFF -DWITH_OPENGL=OFF -DFORCE_VTK=OFF -DWITH_TBB=OFF -DWITH_GDAL=OFF 
 -DWITH_XINE=OFF -DBUILD_EXAMPLES=OFF -DBUILD_ZLIB=OFF -DBUILD_TESTS=OFF 
--DCMAKE_LIBRARY_PATH="/opt/homebrew/lib;/Users/raymondtsai/Desktop/OpenCV/build/lib"
+-DCMAKE_LIBRARY_PATH="/path/to/opencv/library"
 
 To run the program, create a run configuration of the main method in the main.cpp file.
 
