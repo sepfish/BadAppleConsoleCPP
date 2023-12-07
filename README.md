@@ -20,9 +20,10 @@ into the CMake settings (CLion -> Settings -> Build, Execution, Deployment -> CM
 
 To run the program, create a run configuration of the main method in the main.cpp file.
 
-The run configuration takes in two arguments:
-- Argument 1: the path to the directory where the frames will be written to.
-- Argument 2: the path to the video file of Bad Apple.
+The run configuration takes in three arguments:
+- Argument 1: the path of the audio file (as a .mp3 or .wav file).
+- Argument 2: the path to the video file of Bad Apple (as a .mp4 file)
+- Argument 3: the path to the directory where the frames will be written to.
 
 Alternatively, you can run an executable file from your computer's respective Terminal.
 Navigate to the path of the executable file under the cmake-build-debug folder, and type BadAppleConsoleCPP.exe, 
