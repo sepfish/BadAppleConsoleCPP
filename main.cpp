@@ -38,15 +38,13 @@ int main(int argc, char **argv) {
     auto video = [](VideoProcessor processor) {
         for (std::string &s: processor.framesAsAscii) {
             std::cout << s;
-            //theoretically time between frames should be 16.6 ms
-            //std::this_thread::sleep_for(std::chrono::milliseconds(2));
+            //optimally, time between frames should be 16.6 ms
+            //std::this_thread::sleep_for(std::chrono::milliseconds(1));
             system("cls");
         }
         flag = true;
         condv.notify_one();
     };
-
-    //system("start cmd /k C:/Users/trsky/Documents/GitHub/BadAppleConsoleCPP/cmake-build-debug/BadAppleConsoleCPP.exe");
 
     //start both threads
     std::thread audioThread(audio, a);
