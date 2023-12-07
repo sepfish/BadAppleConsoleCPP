@@ -80,17 +80,21 @@ void VideoProcessor::processFrame(const char* dir, int downsampleRate) {
     cv::Mat readImage = cv::imread(dir);
 
     std::vector<std::vector<double>> pixelBrightnessMap(readImage.rows);
-
-    std::string stringToBuild;
-
     for (int i = 0; i < pixelBrightnessMap.size(); i++) {
         pixelBrightnessMap.at(i) = std::vector<double>(readImage.cols);
     }
 
+    this->frameWidth = pixelBrightnessMap[0].size() / downsampleRate;
+    this->frameHeight = pixelBrightnessMap.size() / downsampleRate;
+
+    std::vector<std::string> frame;
+
     //analyze each pixel by brightness
     for (int row = 0; row < readImage.rows; row += downsampleRate) {
+        std::string rowString;
         for (int col = 0; col < readImage.cols; col += downsampleRate) {
             cv::Vec3b bgrPixel = readImage.at<cv::Vec3b>(row, col);
+
             int red = bgrPixel[2];
             int green = bgrPixel[1];
             int blue = bgrPixel[0];
@@ -111,20 +115,21 @@ void VideoProcessor::processFrame(const char* dir, int downsampleRate) {
 
             //std::cout << this->asciiCharacterList[indexOfMin] << std::endl;
 
-            stringToBuild += this->asciiCharacterList[indexOfMin];
+            rowString += this->asciiCharacterList[indexOfMin];
 
             pixelBrightnessMap[row][col] = brightness;
 
         }
-        stringToBuild += "\n";
+        rowString += "\n";
+        frame.push_back(rowString);
+        rowString.clear();
     }
 
-    this->frameWidth = pixelBrightnessMap[0].size() / downsampleRate;
-    this->frameHeight = pixelBrightnessMap.size() / downsampleRate;
 
-    std::cout << stringToBuild << std::endl;
 
-    this->framesAsAscii.push_back(stringToBuild);
+    //std::cout << stringToBuild << std::endl;
+
+    this->framesAsAscii.push_back(frame);
 
     //write the
 

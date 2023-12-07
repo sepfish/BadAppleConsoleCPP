@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4
+CXX_INCLUDES = -I/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/audio -isystem /opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4
 
 CXX_FLAGSarm64 = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.5 -fcolor-diagnostics
 

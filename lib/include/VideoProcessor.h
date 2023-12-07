@@ -13,9 +13,14 @@ class VideoProcessor {
 //NOTE: WRITEFRAMESTOFOLDER MUST BE CALLED BEFORE PROCESSFRAME TO WORK PROPERLY
 public:
     //stores each frame as a multi-line string of ascii art
-    std::vector<std::string> framesAsAscii;
+    //std::vector<std::string> framesAsAscii;
+
     int frameWidth;
     int frameHeight;
+
+    //list of frames, where each frame is a list of strings, each string representing a row of the ASCII frame
+    std::vector<std::vector<std::string>> framesAsAscii;
+
 
     //constructor
     explicit VideoProcessor(const char* videoFilePath, const char* framesPath);

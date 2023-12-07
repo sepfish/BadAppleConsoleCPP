@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/audio"/>
 					<Add directory="/opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
@@ -46,6 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/audio"/>
 					<Add directory="/opt/homebrew/Cellar/opencv/4.8.1_5/include/opencv4"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>

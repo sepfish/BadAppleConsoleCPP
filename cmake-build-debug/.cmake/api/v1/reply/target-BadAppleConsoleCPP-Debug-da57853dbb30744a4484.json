@@ -11,7 +11,8 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_libraries"
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,7 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 32,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -35,9 +42,9 @@
 				"parent" : 0
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 0,
-				"line" : 39,
+				"line" : 40,
 				"parent" : 0
 			}
 		]
@@ -53,6 +60,10 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 4,
+					"path" : "/Users/raymondtsai/Documents/CS3520/CLionProjects/BadAppleConsoleCPP/lib/audio"
+				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
