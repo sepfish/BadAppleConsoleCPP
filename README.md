@@ -6,6 +6,8 @@ Bad Apple is a music video that is commonly used in image processing projects. T
 analyzing the pixels for brightness, and displaying them as ASCII art in the terminal while playing the audio of the
 music video.
 
+**Currently, the visuals and audio are not synced due to limitations in the development environment.
+
 # External Libraries Used
 OpenCV - Image Processing Library -  https://opencv.org
 MiniAudio - Audio Playback Library - https://miniaud.io
